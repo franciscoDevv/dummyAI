@@ -12,7 +12,7 @@ s = input()
 print(colored("[Working] . . .", "green"))
 
 
-co = cohere.Client('00NIFiaoXEizU4s5lCYgt2nyz2WSFAjPwFnkSwsh')
+co = cohere.Client('{YOUR_API_KEY_HERE}')
 response = co.generate(
   model='command',
   prompt=s,
