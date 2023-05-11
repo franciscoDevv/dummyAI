@@ -24,6 +24,11 @@ Install [cohere](https://cohere.com) with pip
 ```
 pip install cohere
 ```
+
+Before running it remember to register in [cohere](https://cohere.com) and get your secret API key.
+After getting it, replace the {YOUR_API_KEY_HERE} in the main.py file.
+
+
 Run it
 ```
 python main.py
