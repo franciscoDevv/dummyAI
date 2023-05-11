@@ -12,7 +12,7 @@ DummyAI can't see previous messages, chat is not continuous, that is why it's na
 - It can write essays. ✅
 - It can help you with your code. ✅
 - Write summaries about books ✅
-- I can't read the message history ✅
+- I can't read the message history ❌
 - More soon!
 
 ## Usage
