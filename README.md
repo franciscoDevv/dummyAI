@@ -2,6 +2,8 @@
 
 # dummyAI 💻
 DummyAI is an AI designed for terminal that helps you in a lot of things. It is designed to automate many of your every tasks. (Based in Cohere API)
+**IMPORTANT**: 
+DummyAI can't see previous messages, chat is not continuous, that is why it's named Dummy
 
 ## Features 🎭
 - It can write emails for you.
