@@ -8,12 +8,14 @@ print(f.renderText('dummyAI'))
 print(colored('Welcome to DummyAI', 'red'))
 print("DummyAI is an AI that helps you in a lot of things. It is designed to automate many of your every tasks, so that you can have more time to focus on the things that matter for you.")
 print("How can i help you?")
-s = input()
-print(colored("[Working] . . .", "green"))
+print("")
+while 1:
+  s = input("> ")
+  print(colored("[Working] . . .", "green"))
 
 
-co = cohere.Client('{YOUR_API_KEY_HERE}')
-response = co.generate(
+  co = cohere.Client('00NIFiaoXEizU4s5lCYgt2nyz2WSFAjPwFnkSwsh')
+  response = co.generate(
   model='command',
   prompt=s,
   max_tokens=4000,
@@ -24,4 +26,4 @@ response = co.generate(
   presence_penalty=0,
   stop_sequences=[],
   return_likelihoods='NONE')
-print('{}'.format(response.generations[0].text))
+  print('{}'.format(response.generations[0].text))
