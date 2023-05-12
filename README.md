@@ -1,4 +1,4 @@
-![image](https://github.com/greedyboyy/dummyAI/bannerDummyAI.png)
+![image](bannerDummyAI.png)
 
 # dummyAI 💻
 DummyAI is an AI designed for terminal that helps you in a lot of things. It is designed to automate many of your every tasks. (Based in Cohere API)
