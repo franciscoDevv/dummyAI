@@ -25,7 +25,7 @@ DummyAI can't see previous messages, chat is not continuous, that is why it's na
 - More soon!
 
 
-See the examples [here](https://github.com/greedyboyy/dummyAI/examples.md) 
+See the examples [here](https://github.com/greedyboyy/dummyAI/blob/main/examples.md)
 
 ## Usage
 Clone this repository:
