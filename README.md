@@ -1,8 +1,13 @@
-![image](https://github.com/greedyboyy/dummyAI/assets/77551844/70f82089-2410-4d69-8dbc-a06c54245dc5)
+![image](https://github.com/greedyboyy/dummyAI/bannerDummyAI.png)
 
 # dummyAI 💻
 DummyAI is an AI designed for terminal that helps you in a lot of things. It is designed to automate many of your every tasks. (Based in Cohere API)
 
+<center>
+  <img src="https://img.shields.io/badge/status-building-brightgreen">
+  <img src="https://img.shields.io/badge/build%20by-frannn-blue">
+  <img src="https://img.shields.io/github/last-commit/greedyboyy/dummyAI">
+</center>
 
 **IMPORTANT**: 
 DummyAI can't see previous messages, chat is not continuous, that is why it's named Dummy
