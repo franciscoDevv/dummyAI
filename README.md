@@ -11,8 +11,8 @@ DummyAI can't see previous messages, chat is not continuous, that is why it's na
 - It can write emails for you. ✅
 - It can write essays. ✅
 - It can help you with your code. ✅
-- Write summaries about books ✅
-- I can't read the message history ❌
+- It can write summaries about books ✅
+- It can't read the message history ❌
 - More soon!
 
 ## Usage
@@ -38,4 +38,7 @@ Run it
 ```
 python main.py
 ```
+
 Enjoy!
+
+When u want to exit the program just type `exit`
