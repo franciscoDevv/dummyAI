@@ -15,7 +15,7 @@ DummyAI is an AI designed for terminal that helps you in a lot of things. It is 
 
 **IMPORTANT**: 
 DummyAI can't see previous messages, chat is not continuous, that is why it's named Dummy
-
+In case of bugs 🐛, create an Issue
 ## Features 🎭
 - It can write emails for you. ✅
 - It can write essays. ✅
