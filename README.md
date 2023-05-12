@@ -1,9 +1,7 @@
 
 
 <div align="center">
-
         ![image](bannerDummyAI.png)
-
   <h1>🚀 rocket.nvim 🚀</h1>
   <hr>
   <img src="https://img.shields.io/badge/status-building-brightgreen">
