@@ -1,6 +1,6 @@
 
  ![image](bannerDummyAI.png)
-  <h1 align="center">🚀 rocket.nvim 🚀</h1>
+  <h1 align="center">dummyAI 💻</h1>
   <hr>
   <div align="center">
 <img src="https://img.shields.io/badge/status-building-brightgreen">
@@ -9,7 +9,7 @@
 </div>
 
 
-# dummyAI 💻
+
 DummyAI is an AI designed for terminal that helps you in a lot of things. It is designed to automate many of your every tasks. (Based in Cohere API)
 
 
