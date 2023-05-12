@@ -52,6 +52,10 @@ Run it
 python main.py
 ```
 
-Enjoy!
-
 When u want to exit the program just type `exit`
+
+
+Enjoy! and please give us a star!
+
+
+
