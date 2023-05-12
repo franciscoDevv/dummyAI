@@ -14,16 +14,20 @@ while 1:
   print(colored("[Working] . . .", "green"))
 
 
-  co = cohere.Client('{YOUR_API_KEY_HERE}')
-  response = co.generate(
-  model='command',
-  prompt=s,
-  max_tokens=4000,
-  temperature=0.9,
-  k=0,
-  p=1,
-  frequency_penalty=0,
-  presence_penalty=0,
-  stop_sequences=[],
-  return_likelihoods='NONE')
-  print('{}'.format(response.generations[0].text))
+  if s == 'exit':
+    print(colored("Thanks for using DummyAI", "red"))
+    break
+  else:
+    co = cohere.Client('00NIFiaoXEizU4s5lCYgt2nyz2WSFAjPwFnkSwsh')
+    response = co.generate(
+    model='command-nightly',
+    prompt=s,
+    max_tokens=4000,
+    temperature=0.9,
+    k=0,
+    p=1,
+    frequency_penalty=0,
+    presence_penalty=0,
+    stop_sequences=[],
+    return_likelihoods='NONE')
+    print('{}'.format(response.generations[0].text))
