@@ -4,7 +4,7 @@
   <hr>
   <div align="center">
 <img src="https://img.shields.io/badge/status-building-brightgreen">
-  <img src="https://img.shields.io/badge/build%20by-frannn-blue">
+  <img src="https://img.shields.io/badge/build%20by-greedyboyy-blue">
   <img src="https://img.shields.io/github/last-commit/greedyboyy/dummyAI">
 </div>
 
