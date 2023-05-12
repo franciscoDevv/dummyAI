@@ -24,6 +24,9 @@ DummyAI can't see previous messages, chat is not continuous, that is why it's na
 - It can't read the message history ❌
 - More soon!
 
+
+See the examples [here](https://github.com/greedyboyy/dummyAI/examples.md) 
+
 ## Usage
 Clone this repository:
 
