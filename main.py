@@ -3,6 +3,7 @@ import time
 from pyfiglet import Figlet
 from termcolor import colored
 
+API_KEY = 'YOUR_API_KEY_HERE'
 f = Figlet(font='big')
 print(f.renderText('dummyAI'))
 print(colored('Welcome to DummyAI', 'red'))
@@ -18,7 +19,7 @@ while 1:
     print(colored("Thanks for using DummyAI", "red"))
     break
   else:
-    co = cohere.Client('00NIFiaoXEizU4s5lCYgt2nyz2WSFAjPwFnkSwsh')
+    co = cohere.Client(API_KEY)
     response = co.generate(
     model='command-nightly',
     prompt=s,
