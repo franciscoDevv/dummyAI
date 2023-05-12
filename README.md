@@ -38,13 +38,13 @@ Go in!
 ```
 cd dummyAI
 ```
-Install [cohere](https://cohere.com) with pip
+Install dependencies.
 ```
-pip install cohere
+pip install -r requirements.txt
 ```
 
 Before running it remember to register in [cohere](https://cohere.com) and get your secret API key.
-After getting it, replace the {YOUR_API_KEY_HERE} in the main.py file.
+After getting it, replace the variable API_KEY in the main.py file with your key.
 
 
 Run it
