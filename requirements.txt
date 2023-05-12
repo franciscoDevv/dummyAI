@@ -1,0 +1,3 @@
+cohere
+pyfiglet
+termcolor
