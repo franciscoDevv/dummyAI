@@ -1,7 +1,15 @@
 import cohere
-import time
+import os
+import platform
 from pyfiglet import Figlet
 from termcolor import colored
+
+
+
+if platform.system() == 'Windows':
+  os.system('cls')
+elif platform.system() == 'Linux':
+  os.system('clear')
 
 API_KEY = 'YOUR_API_KEY_HERE'
 f = Figlet(font='big')
