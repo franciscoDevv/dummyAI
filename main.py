@@ -1,9 +1,18 @@
 import cohere
+import time
 import os
 import platform
 from pyfiglet import Figlet
 from termcolor import colored
+from deep_translator import GoogleTranslator
 
+def checkLanguage(s):
+  co = cohere.Client(API_KEY)
+  response = co.detect_language
+  response = co.detect_language(
+  texts=[s, "'Здравствуй, Мир'"]
+  )
+  return response.results[0].language_code
 
 
 if platform.system() == 'Windows':
@@ -11,7 +20,11 @@ if platform.system() == 'Windows':
 elif platform.system() == 'Linux':
   os.system('clear')
 
+  
+# YOUR API KEY HERE
 API_KEY = 'YOUR_API_KEY_HERE'
+# YOUR API KEY HERE
+
 f = Figlet(font='big')
 print(f.renderText('dummyAI'))
 print(colored('Welcome to DummyAI', 'red'))
@@ -21,7 +34,8 @@ print("")
 while 1:
   s = input("> ")
   print(colored("[Working] . . .", "green"))
-
+  translated = GoogleTranslator(source='auto', target='en').translate(s)
+    
 
   if s == 'exit':
     print(colored("Thanks for using DummyAI", "red"))
@@ -30,7 +44,7 @@ while 1:
     co = cohere.Client(API_KEY)
     response = co.generate(
     model='command-nightly',
-    prompt=s,
+    prompt=translated,
     max_tokens=4000,
     temperature=0.9,
     k=0,
@@ -39,4 +53,7 @@ while 1:
     presence_penalty=0,
     stop_sequences=[],
     return_likelihoods='NONE')
-    print('{}'.format(response.generations[0].text))
+    p = checkLanguage(s)
+    q = response.generations[0].text
+    to_print = GoogleTranslator(source='auto', target=p).translate(q)
+    print('{}'.format(to_print))
