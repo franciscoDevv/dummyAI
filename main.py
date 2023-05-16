@@ -1,5 +1,4 @@
 import cohere
-import time
 import os
 import platform
 from pyfiglet import Figlet
