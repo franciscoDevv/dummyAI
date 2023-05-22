@@ -1,3 +1,4 @@
 cohere
 pyfiglet
 termcolor
+deep_translator
